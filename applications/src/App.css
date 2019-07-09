@@ -1,0 +1,180 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/***********************************************************************************/
+.mainCard{
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  padding-left: 71px;
+  padding-right: 71px;
+}
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    
+}
+.inputText{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+  padding-top: 31px;
+}
+.inputTexts{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.inputButtons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.buttonPrevious{
+  padding-left: 421px;
+  padding-top: 21px;
+}
+.buttonNext{
+  padding-top: 21px;
+    padding-right: 431px;
+    padding-bottom: 31px;
+}
+.stepperRoot{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* padding-left: 270px; */
+}
+.cardWidth{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.btninput{
+  display: flex;
+    flex-direction: row;
+}
+.stepperDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.myStyle{
+  display: flex;
+  background-color: cornflowerblue;
+  width: 1461px;
+  height: 31px;
+}
+.insideStyle
+{
+  display: flex;
+  padding-top: 10px;
+  font-family: sans-serif;
+  padding-left: 31px;
+}
+.styleCard{
+  /* padding-top: 21px; */
+  padding-top: 1px;
+    /* border: 1px solid; */
+
+}
+.myDiv{
+  display: flex;
+
+  flex-direction: column;
+}
+.myImage{
+  height: 21px;
+}
+.addressDiv{
+  display: flex;
+  flex-direction: column;
+  padding-right: 71px;
+  padding-left: 71px;
+  padding-top: 81px;
+}
+
+.addrinputText{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 11px;
+}
+.radioGroup{
+  display: flex
+}
+.myradioGroup{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.yesDiv{
+  display: flex;
+}
+.addrinputButtons
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* padding-top: 21px; */
+}
+.sscFile{
+  display: flex;
+  padding-left: 41px;
+}
+.sscinputText{
+  display: flex;
+  flex-direction: column;
+  padding-top: 41px;
+}
+.fileSSC{
+  padding-left: 161px;
+}
+.fileHSC{
+  padding-left: 91px;
+}
+.fileBE{
+  padding-left: 161px;
+}
+.hscFile{
+  display: flex;
+  padding-top: 31px;
+}
+
+.beFile{
+  display: flex;
+    padding-top: 31px;
+}
